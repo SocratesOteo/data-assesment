@@ -250,6 +250,6 @@ module.exports = {
             sequelize.query(`SELECT city_id name AS city rating FROM cities
             SELECT countries_id name as country FROM countries
             JOIN cities on countries
-            WHERE country_id = country_id `)
+            WHERE city_id = country_id `)
         }
     }
